@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Companyname:</strong>
+  <%= @job_application.companyName %>
+</p>
+
+<p>
+  <strong>Appcompleted:</strong>
+  <%= @job_application.appCompleted %>
+</p>
+
+<p>
+  <strong>Companyresponse:</strong>
+  <%= @job_application.companyResponse %>
+</p>
+
+<p>
+  <strong>Nextinterview:</strong>
+  <%= @job_application.nextInterview %>
+</p>
+
+<%= link_to 'Edit', edit_job_application_path(@job_application) %> |
+<%= link_to 'Back', job_applications_path %>

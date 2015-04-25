@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  companyName: MyString
+  appCompleted: false
+  companyResponse: false
+  nextInterview: 2015-03-31
+
+two:
+  companyName: MyString
+  appCompleted: false
+  companyResponse: false
+  nextInterview: 2015-03-31
